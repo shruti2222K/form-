@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="form.css">
+    <title>Survey Form</title>
+</head>
+<link rel="stylesheet" href="style2.css">
+<body>
+    <div class="container ">
+        <header class="header">
+            <h1 id="title">
+                CUSTOMER SERVEY FORM
+            </h1>
+        </header>
+        <form action="" id="survey-form">
+
+            <!-- Text section -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Type Email section -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+            </div>
+            <!-- end of Email section -->
+
+            <!-- YES button section -->
+            <div class="form-group">
+                <p id="quest">Is this first timme you are using product and services ?</p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="YES"> YES
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="NO">NO
+            </div>
+        <!-- Checkbox section -->
+            <div class="form-group">
+                <p id="quest">Would you suggest your friend and collegue? </p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="YES"> YES
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="NO">NO
+            </div>
+            <!-- End of checkbox section -->
+            <!-- Checkbox section -->
+            <div class="form-group">
+                <p id="quest">How satisfied you are with our company? </p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="Satisfies"> Satisfied
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="Undecided">Undecided
+                    
+                    <label for="">
+                        <input type="checkbox" name="prefer" class="checkbox" value="Unsatisfied">Unsatisfied
+            </div>
+            <!-- End of checkbox section -->
+  <!-- Textarea section -->
+            <div class="form-group">
+                <p id="quest">Do you have suggestion to improve our service</p>
+                <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+            <div class="form-group">
+                <p id="quest">©2018 Customer Survey form.All right reserved|Design by W3Layouts</p>
+        </form>
+    </div>
+</body>
+</html>
